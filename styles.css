@@ -24,14 +24,14 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 body {
-  background-color: #d6f5f5;
+  background-color: darkgrey;
 }
 .nav {
   background-color: grey;
 }
 .logo {
   border: 2px solid white;
-  padding: 2px 5px 2px 5px;
+  padding: 2px 8px 2px 8px;
   font-weight: bold;
   color: white;
 }
@@ -39,14 +39,17 @@ body {
   font-weight: bold;
 
 }
-.link {
+.borderright {
+  border-right: 2px solid white;
 }
 li {
   color: black;
   display: inline-block;
 }
-.pipe {
-  color: white;
+
+.login {
+  padding-right: 10px;
+  margin-top: 50px;
 }
 
 a {
@@ -74,5 +77,17 @@ footer {
   text-align: center;
 }
 .search {
-  font-size:18px;
+  display: block;
+  text-align: center;
+}
+.searchBar {
+  display: inline-block;
+  font-size: 18px;
+  
+}
+form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  decoration: none;
 }
